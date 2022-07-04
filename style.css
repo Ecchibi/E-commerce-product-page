@@ -1,0 +1,520 @@
+body {
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+/* --------Barre navbar--------- */
+
+#icon-menu{
+   display:none;
+}
+
+.logo{ 
+   margin-right: 4%; 
+}
+
+.navbar {
+   color: rgb(123, 123, 123);
+   padding-left: 15%;
+   margin-top:3%;
+   font-size: 16px;
+ 
+   font-weight: 400,700;
+}
+
+a{
+   text-decoration: none;
+   color: rgb(123, 123, 123);
+}
+
+a:hover {
+   color: black;
+   cursor: pointer;
+}
+
+.lesMenus,.navbar ul{
+   display: flex;
+   flex-direction: row;
+   list-style-type:none;  /* supp les . */
+}
+.navbar li{
+   margin-right: 30px;
+}
+
+.cart{
+   width : 20px;
+   height : 20px;
+   filter: brightness(0) invert(0); /* black color*/
+}
+
+.avatar{
+   width : 40px;
+   height : 40px;
+   margin-top: -30%;
+}
+
+.avatar:hover{
+   box-shadow: 0 0 0 2px hsl(26, 100%, 55%);
+   border-radius: 50%; 
+}  
+
+.cart,.avatar{
+   cursor: pointer;
+}
+
+.profile-part{
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction:row;
+}
+
+#notif{
+   display: none;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   bottom: 19%;
+   right: 30%;
+   margin-right: -10%;
+   height:13px;
+   padding: 0px 6px;
+   border-radius: 2.5rem;
+   font-size: 10px;
+   font-weight: bold;
+   color:#fff;
+   background-color: hsl(26, 100%, 55%); 
+   
+}
+
+.line-navbar {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 3%;
+   border-top: 1px solid rgba(192, 192, 192, 0.919);
+   width : 65%;
+}
+
+/* =====================MENU UNDERLINE============== */
+
+.line2{
+   display: none;
+   position : relative;
+   top : 175%;
+   border-top: 4px solid hsl(26, 100%, 55%);
+   width : 74%;
+}
+
+.underline1{
+   display: flex;
+   flex-direction: column;
+}
+
+.line3{
+   display: none;
+   position : relative;
+   top : 175%;
+   border-top: 4px solid hsl(26, 100%, 55%);
+   width : 50%;
+}
+.underline2{
+   display: flex;
+   flex-direction: column;
+}
+
+.line4{
+   display: none;
+   position : relative;
+   top : 175%;
+   border-top: 4px solid hsl(26, 100%, 55%);
+   width : 65%;
+}
+.underline3{
+   display: flex;
+   flex-direction: column;
+}
+
+.line5{
+   display: none;
+   position : relative;
+   top : 175%;
+   border-top: 4px solid hsl(26, 100%, 55%);
+   width : 55%;
+}
+.underline4{
+   display: flex;
+   flex-direction: column;
+}
+
+.line6{
+   display: none;
+   position : relative;
+   top : 175%;
+   border-top: 4px solid hsl(26, 100%, 55%);
+   width : 65%;
+}
+.underline5{
+   display: flex;
+   flex-direction: column;
+}
+/* =====================end MENU UNDERLINE============== */
+
+/* ---------END navBar-------- */
+
+
+
+
+/* --------------Left part----------- */
+.left-Part{
+   margin-top : 6%;
+   margin-left : 22%;
+}
+#big {
+   width  : 447px;
+   height : 447px;
+   border-radius: 5%;
+   cursor: pointer;
+}
+
+.choices img{
+   width  : 90px;
+   height : 90px;
+   margin-top: 4%;
+   margin-right: 4%;
+   border-radius: 10%;
+}
+.choices img:hover{
+   background-color: #ffede0;
+   opacity: .5;
+   transition: .5s ease;
+   box-shadow: 0 0 0 3px hsl(26, 100%, 55%);
+   cursor: pointer;
+}
+
+/* ---------END Left part----------- */
+
+
+
+
+/* Aligner LEFT et RIGHT part*/
+.flex {
+   display: flex;
+   flex-direction:row;
+}
+/* END 2 parts*/
+
+
+
+
+
+/* ---------- Right part ----------*/
+
+.right-Part{
+   width: 30%;
+   margin-top : 10%;
+   margin-left:8%;
+}
+
+p{
+   font-family: 'Kumbh Sans', sans-serif;
+   color: rgb(123, 123, 123);
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+   line-height: 1.5;
+}
+
+#top-Title{
+   font-size: 12px;
+   color:hsl(26, 100%, 55%);
+}
+
+#title{
+   font-size: 35px;
+   font-weight: 700;
+}
+
+#promo{
+   text-align: center;
+   background-color:hsl(25, 100%, 94%);
+   width: 50px;
+   height: 25px;
+   border-radius: 15%;
+   margin-left: 15px;
+}
+
+#promo p{
+   color:hsl(26, 100%, 55%);
+   margin-top:2%;
+   margin-left: 24%;
+   font-weight: bold;
+}
+
+.promotion{
+   display: flex;
+   flex-direction:row;
+}
+
+#real-Price{
+   color: rgb(184, 184, 184);
+   margin-top:-10px;
+}
+
+.achat {
+   display: flex;
+   flex-direction:row;
+}
+
+.add-to-cart{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   /* ↖ permet d'aligner le + et - */
+   color:hsl(0, 0%, 100%);
+   font-weight: bold;
+   height: 50px;
+   width:  55%;
+   background:hsl(26, 100%, 55%);
+   border: none;
+   border-radius:10px;
+   box-shadow: 0px 27px 13px -5px hsl(25, 100%, 94%);
+   cursor: pointer;
+}
+
+
+.add-to-cart:hover{
+   background:hsl(25, 100%, 75%);
+}
+
+#svg {
+   padding-right: 10px;
+   width  : 16px;
+   height : 16px;
+   filter: brightness(0) invert(1); /* turn to white*/
+}
+
+.minus-plus{
+   display:flex;
+   align-items: center;
+   justify-content: center; 
+   /* ↖ permet d'aligner le + et - */
+
+   margin-right:3%;
+   color:hsl(0, 0%, 100%);
+   font-weight: bold;
+   height: 50px;
+   width:  30%;
+   background:hsl(223, 64%, 98%);
+   border: none;
+   border-radius:10px;  
+}
+
+#minus{ 
+   margin-right:20%;
+   cursor: pointer;
+}
+
+#plus{
+   cursor: pointer;
+}
+
+/* .nb-com{
+   text-align: center;
+   color:black;
+   font-size: 16px;
+   margin-right:32%;
+} */
+
+.QuantitySelector-input{
+   background:hsl(223, 64%, 98%);
+   color:black;
+   font-size: 16px;
+   text-align: center;
+   width: 2rem;
+   height: 1rem;
+   margin-right:15%;
+   font-weight: bold;
+   border: none;
+   outline:none;
+}
+
+
+/* Enleve les fleche des input number */
+/* Pour chrome, Safari, Edge, Opera : */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Pour firefox : */
+input[type=number]{
+   -moz-appearance: textfield;
+}
+/* ---------- END Right part ----------*/
+
+
+/* °°°°°°°°°°MEDIA QUERY°°°°°°°°°°° */
+/* samsung S8 (ajuster)
+bug je dois Zoomer puis réinitialiser*/ 
+@media(max-width: 767px) 
+{ 
+      body{
+         width: 100%;
+         height: auto;
+      }
+      header{
+         width: 100%;
+         height: auto;
+      }
+      ul{
+         margin-left: -25%;
+      }
+
+      #icon-menu{
+         display: initial;
+         margin-right: -20px;
+      }
+
+      .logo{
+         margin-right: 10%; 
+         text-align:left;
+         display:flex;
+         align-items: center;
+         justify-content: center; 
+      }
+
+      .avatar{
+         width : 25px;
+         height : 25px;
+         margin-top: 0%;
+      }
+      .cart{
+         filter: brightness(0) invert(0); 
+      }
+
+      #notif{
+         display: none;
+         bottom: 40%;
+         right: 33%;
+         margin-right: -10%;
+         height:12px;
+         padding: 0px 6px;
+
+      }
+      .lesMenus{
+         display: none;
+      }
+
+
+      .profile-part{
+         margin-left: 0px;
+         margin-right: 0px;
+         display: flex;
+         flex-direction:row;
+         align-items: center;
+         justify-content: center; 
+      }
+
+
+      .line-navbar{
+         display: none;
+      }
+
+      .flex {
+         display: flex;
+         flex-direction: column;
+      }
+
+      .left-Part{
+         margin-top : 0px;
+         margin-left : 0px;
+      }
+
+      #big {
+         width  : 100%;
+         height : auto;
+         border-radius: 0px;
+         cursor: pointer;
+      }
+
+      .choices img{
+         display: none;
+      }
+
+      .right-Part{
+         width: 90%;
+         margin-top :0px;
+         margin-left: 5%;
+      }
+
+      #title{
+         font-size: 25px;
+         font-weight: 700;
+      }
+
+
+      .promotion-smartphone{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+      }
+
+      #real-Price{
+         margin-top: 8%;
+         margin-left: 30%;
+      }
+
+      .achat {
+         display: flex;
+         flex-direction:column;
+      }
+
+      .minus-plus{
+         font-weight: bold;
+         height: 50px;
+         width:  100%;
+         border-radius:10px;  
+         margin-bottom: 5%;
+      }
+      
+      .QuantitySelector-input{
+         background:hsl(223, 64%, 98%);
+         color:black;
+         font-size: 16px;
+         text-align: center;
+         width: 2rem;
+         height: 1rem;
+         margin-right:35%;
+         font-weight: bold;
+         border: none;
+         outline:none;
+      }
+      
+      #minus{ 
+         margin-right:35%;
+         cursor: pointer;
+      }
+
+      .add-to-cart{
+         display:flex;
+         align-items: center;
+         justify-content: center;
+         /* ↖ permet d'aligner le + et - */
+         color:hsl(0, 0%, 100%);
+         font-weight: bold;
+         height: 50px;
+         width:  100%;
+         background:hsl(26, 100%, 55%);
+         border: none;
+         border-radius:10px;
+         box-shadow: 0px 27px 13px -5px hsl(25, 100%, 94%);
+         cursor: pointer;
+      }
+
+      footer{
+         margin-top:20px;
+      }
+
+}

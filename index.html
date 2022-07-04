@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+
+  <div class="navbar">
+    <ul>
+    
+      <div class="logo">
+        <li><img id="icon-menu" src="images/icon-menu.svg" alt=""></li>
+        <li> <img src="images/logo.svg" alt="logo"></li>
+      </div>
+  <div class="lesMenus">
+    <div class="underline1">
+      <li> <a class="menu" id="collections" href="">Collections</a>  </li>
+      <span class="line2"> </span> 
+    </div>
+    <div class="underline2">
+      <li> <a class="menu" id="men" href=""> Men</a> </li>
+      <span class="line3"> </span> 
+    </div>
+    <div class="underline3">
+      <li> <a class="menu" id="women" href="">Women</a> </li>
+      <span class="line4"> </span> 
+    </div>
+    <div class="underline4">
+      <li> <a class="menu" id="about" href="">About</a> </li>
+      <span class="line5"> </span> 
+    </div>
+    <div class="underline5">
+      <li> <a class="menu" id="contact" href=""> Contact</a></li>  
+      <span class="line6"> </span> 
+    </div>
+  </div>
+      <div class="profile-part">
+      <li> <img class="cart" src="images/icon-cart.svg" alt="cart"> </li>
+      <li id="notif"> </li>
+      <li> <img class="avatar" src="images/image-avatar.png" alt="avatar"> </li>  
+     
+      </div>
+      
+    </ul>
+  </div>
+
+   <div class="line-navbar"> <!--hr--> </div> 
+
+</header>
+
+<div class="flex">
+
+<div class="left-Part">
+  <img id="big" src="images/image-product-1.jpg" alt="">
+  <div class="choices">
+    <img src="images/image-product-1-thumbnail.jpg" alt="">
+    <img src="images/image-product-2-thumbnail.jpg" alt="">
+    <img src="images/image-product-3-thumbnail.jpg" alt="">
+    <img src="images/image-product-4-thumbnail.jpg" alt="">
+  </div>
+</div>
+
+  <div class="right-Part">
+    <h3 id="top-Title">SNEAKERS COMPANY </h3>
+    <h1 id="title"> Fall Limited Edition Sneakers</h1> 
+    <p class="description"> These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+    <div class="promotion-smartphone">
+      <div class="promotion">
+        <h2 id="promo-price" value="125"> $125.00</h2>
+        <h4 id="promo"> <p>	50%</p> </h4>
+      </div>
+    <h4 id="real-Price"> $̶2̶5̶0̶.̶0̶0̶ </h4>
+    </div>
+    <div class="achat">
+      <button class="minus-plus"> 
+          <img id="minus" src="images/icon-minus.svg" alt="minus"> 
+            <!-- <span class="nb-com">0</span> -->
+
+            <input  type="number" min="1" max="100" step="1" aria-label="Quantité" class="QuantitySelector-input" value="1">
+
+          <img id="plus" src="images/icon-plus.svg" alt="plus">
+      </button>
+        
+      <button class="add-to-cart"> 
+          <img id="svg" src="images/icon-cart.svg" alt="cart" > Add to cart
+     </button>  <!-- addEventListener appel addBasket(leproduit) -->
+  </div>
+</div>
+
+</div>
+
+
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://imakhlaf-youba.fr/">Imakhlaf Youba</a>.
+  </div>
+</footer>
+
+
+<!-- <script src="basket.js"></script> -->
+<script src="basketObject.js"></script>
+<script src="script.js"></script>
+<script src="underlineNavbar.js"></script>
+
+</body>
+</html>
