@@ -1,3 +1,4 @@
+/* The designs were created to the following widths: 1536x763.20 */
 body {
    margin: 0px;
    padding: 0px;
@@ -394,6 +395,10 @@ input[type=number]{
    height : 80px;
 }
 
+/* .choices-modal img.hidden{
+   display:none;
+} */
+
 .choices-modal img:hover{
    cursor: pointer;
    transition: .5s ease;
@@ -408,18 +413,21 @@ input[type=number]{
    
 }
 
-.icon-previous img{
+#icon-previous img{
    position : absolute;
    top: 46%;
    left: 33.2%;
    border-radius: 50%;
 }
 
-.icon-next img{
+#icon-next img{
    position : absolute;
    top: 46%;
    left: 63.6%;
    border-radius: 50%;
+}
+.fleche-direction-image:hover{
+   cursor: pointer;
 }
 
 .full-img{
@@ -437,4 +445,9 @@ input[type=number]{
 
 .full-img.open{
    transform : translate(-50%, -50%) scale(1);
+}
+
+
+.choices-modal img.hidden{
+   display:none;
 }

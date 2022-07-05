@@ -41,3 +41,16 @@ previews2.forEach(preview => {
       //evite de mettre images/ ↑ dans img html
    });
 });
+
+// let imgActive = 0;
+// for  (let i = 1; i< previews2.length; i +=1){
+//    previews2[i].classList.add('hidden');
+// }
+
+
+// document.getElementById("icon-next").addEventListener('click', () =>{
+//    previews2[imgActive].classList.add("hidden");
+//    imgActive +=1;
+//    previews2[imgActive].classList.remove("hidden");
+
+// })
