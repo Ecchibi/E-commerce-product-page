@@ -292,7 +292,7 @@ p{
    padding-right: 10px;
    width  : 16px;
    height : 16px;
-   filter: brightness(0) invert(1); /* turn to white*/
+   /* filter: brightness(0) invert(1); turn to white */
 }
 
 .minus-plus{
@@ -391,7 +391,6 @@ input[type=number]{
    border-radius: 10%;
    width : 80px;
    height : 80px;
-   
 }
 
 .choices-modal img:hover{
@@ -407,8 +406,6 @@ input[type=number]{
    left: 35%;
    
 }
-
-
 
 .icon-previous img{
    position : absolute;
@@ -440,3 +437,26 @@ input[type=number]{
    transform : translate(-50%, -50%) scale(1);
 }
 
+.modal-cart{
+   opacity: 0;
+   position: fixed;
+   top: 12%;
+   left:68%;
+   overflow: auto;  
+   /*permet de mettre une scroll barre si dimension fuck up*/
+   width: 16%;
+   height: 20%;
+   max-width: calc(100vw - 20px);     /*MAX dimension*/
+   max-height: calc(100vw - 20px);
+   padding:20px;
+   background-color:rgb(255, 255, 255);
+   border-radius: 2%;
+   animation: SlideFromRight  .5s both ;
+   text-align: center;
+   box-shadow: 0px 0px 10px 2px rgb(209, 204, 204);
+
+}
+
+.modal-cart.open{
+   opacity: 1;
+}

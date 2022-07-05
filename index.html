@@ -16,6 +16,7 @@
 
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/mediaQuery.css" type="text/css">
+  <link rel="stylesheet" href="css/modalCart.css" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -54,14 +55,21 @@
     </div>
   </div>
       <div class="profile-part">
-      <li> <img class="cart" src="images/icon-cart.svg" alt="cart"> </li>
+      <li> <img class="cart"  id="icon-cart"  src="images/icon-cart.svg" alt="cart"> </li>
       <li id="notif"> </li>
-      <li> <img class="avatar" src="images/image-avatar.png" alt="avatar"> </li>  
+      <li> <img class="avatar"src="images/image-avatar.png" alt="avatar"> </li>  
      
       </div>
       
     </ul>
   </div>
+<!-- End Navbar -->
+
+<!-- Modal cart -->
+<div class="modal-cart">
+  <div class="window"></div>
+</div>
+
 
    <div class="line-navbar"> <!--hr--> </div> 
 
@@ -103,7 +111,6 @@
     data-original="image-product-4.jpg">
   </div>
   <div class="icon-next"><img src="images/circle.icon-next.jpeg" alt=""></div>
-
 </div>
 
 
@@ -129,7 +136,7 @@
       </button>
         
       <button class="add-to-cart"> 
-          <img id="svg" src="images/icon-cart.svg" alt="cart" > Add to cart
+          <img id="svg" src="images/white-icon-cart.svg" alt="cart" > Add to cart
      </button>  <!-- addEventListener appel addBasket(leproduit) -->
   </div>
 </div>
@@ -151,6 +158,7 @@
 <script src="javaScript/script.js"></script>
 <script src="javaScript/underlineNavbar.js"></script>
 <script src="javaScript/modalGallery.js"></script>
+<script src="javaScript/modalCart.js"></script>
 
 </body>
 </html>
