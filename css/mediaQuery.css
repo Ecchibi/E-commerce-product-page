@@ -102,10 +102,11 @@ bug je dois Zoomer puis réinitialiser*/
          display: flex;
          flex-direction: row;
          align-items: center;
+         margin-top:-20px;
       }
 
       #real-Price{
-         margin-top: 8%;
+         margin-top: 14%;
          margin-left: 30%;
       }
 
@@ -158,6 +159,18 @@ bug je dois Zoomer puis réinitialiser*/
 
       footer{
          margin-top:20px;
+      }
+      
+      .window{
+         top: 9.5%;
+         right: 2%;
+         width: 96%;
+         height: 34%;
+         box-shadow: 0px 10px 50px 1px rgb(134, 134, 134);
+      }
+      
+      .modal{
+         display:none !important;
       }
 
 }
