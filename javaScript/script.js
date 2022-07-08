@@ -46,4 +46,21 @@ btnAddToCart.addEventListener("click", () => {
 
 });
 
+//====MODAL SMARTPHONE===
 
+const iconMenu = document.getElementById("icon-menu");
+const menu = document.querySelector(".lesMenus");
+const closeMenu = document.querySelector(".close-menu");
+const ModalMenu = document.querySelector(".modal-menu");
+
+
+
+iconMenu.addEventListener("click", () => {
+   menu.classList.add("open");
+   ModalMenu.classList.add("open");
+});
+
+closeMenu.addEventListener("click", () => {
+   menu.classList.remove("open");
+   ModalMenu.classList.remove("open");
+});

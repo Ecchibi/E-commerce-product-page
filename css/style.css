@@ -6,6 +6,9 @@ body {
 }
 
 
+    .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+
 /* --------Barre navbar--------- */
 
 #icon-menu{
@@ -21,7 +24,6 @@ body {
    padding-left: 15%;
    margin-top:3%;
    font-size: 16px;
- 
    font-weight: 400,700;
 }
 
@@ -426,6 +428,7 @@ input[type=number]{
    left: 63.6%;
    border-radius: 50%;
 }
+
 .fleche-direction-image:hover{
    cursor: pointer;
 }
@@ -449,5 +452,9 @@ input[type=number]{
 
 
 .choices-modal img.hidden{
+   display:none;
+}
+
+.close-menu{
    display:none;
 }

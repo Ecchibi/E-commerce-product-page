@@ -9,18 +9,15 @@
   <title>Frontend Mentor | E-commerce product page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/modalCart.css" type="text/css">
   <link rel="stylesheet" href="css/mediaQuery.css" type="text/css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.google.com/specimen/Kumbh+Sans" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lobster&display=swap');
+  </style>
+
 </head>
 <body>
 
@@ -33,28 +30,36 @@
         <li><img id="icon-menu" src="images/icon-menu.svg" alt=""></li>
         <li> <img src="images/logo.svg" alt="logo"></li>
       </div>
+
+<div class="modal-menu">
+
   <div class="lesMenus">
-    <div class="underline1">
-      <li> <a class="menu" id="collections" href="">Collections</a>  </li>
-      <span class="line2"> </span> 
-    </div>
-    <div class="underline2">
-      <li> <a class="menu" id="men" href=""> Men</a> </li>
-      <span class="line3"> </span> 
-    </div>
-    <div class="underline3">
-      <li> <a class="menu" id="women" href="">Women</a> </li>
-      <span class="line4"> </span> 
-    </div>
-    <div class="underline4">
-      <li> <a class="menu" id="about" href="">About</a> </li>
-      <span class="line5"> </span> 
-    </div>
-    <div class="underline5">
-      <li> <a class="menu" id="contact" href=""> Contact</a></li>  
-      <span class="line6"> </span> 
-    </div>
+      <div class="close-menu">
+          <img src="images/icon-close.svg" alt="">
+        </div>
+        <div class="underline1">
+          <li> <a class="menu" id="collections" href="">Collections</a>  </li>
+          <span class="line2"> </span> 
+        </div>
+        <div class="underline2">
+          <li> <a class="menu" id="men" href=""> Men</a> </li>
+          <span class="line3"> </span> 
+        </div>
+        <div class="underline3">
+          <li> <a class="menu" id="women" href="">Women</a> </li>
+          <span class="line4"> </span> 
+        </div>
+        <div class="underline4">
+          <li> <a class="menu" id="about" href="">About</a> </li>
+          <span class="line5"> </span> 
+        </div>
+        <div class="underline5">
+          <li> <a class="menu" id="contact" href=""> Contact</a></li>  
+          <span class="line6"> </span> 
+      </div>
   </div>
+
+</div>
       <div class="profile-part">
       <li> <img class="cart"  id="icon-cart"  src="images/icon-cart.svg" alt="cart"> </li>
       <li id="notif"> </li>
