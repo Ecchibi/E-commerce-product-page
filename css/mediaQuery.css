@@ -231,9 +231,9 @@ bug je dois Zoomer puis réinitialiser*/
 }
 
       
-@keyframes SlideFromRight{
+/* @keyframes SlideFromRight{
    from {transform: translateX(0px); }
    to { transform: translateX(-200px);}
-}
+} */
 
 }
