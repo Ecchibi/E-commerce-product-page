@@ -186,14 +186,16 @@ bug je dois Zoomer puis réinitialiser*/
 
       .modal-menu.open{
          opacity:1;
+         transition:.4s;
          pointer-events: all;
       }
 
       .lesMenus{
-         display:none;
+         /* display:none; */
+         transition:  .7s;
          position: absolute;
          top: 0;
-         left: 0;
+         left: -65%;
          width: 65%;
          min-height: 100%;
          background-color:white;
@@ -201,17 +203,17 @@ bug je dois Zoomer puis réinitialiser*/
          padding-top: 4rem;
          list-style-type:none;
       }
-      
+      .lesMenus.open{
+         /* display: initial; */
+         left: 0;
+         /* animation: SlideFromLeft .7s both; */
+      }
+
       .menu{
          font-weight: 700;
          margin-left: 1.5rem;
          line-height: 45px;
          color: black;
-      }
-
-      .lesMenus.open{
-         display: initial;
-         animation: SlideFromLeft .7s both ;
       }
 
       .close-menu{
@@ -224,16 +226,16 @@ bug je dois Zoomer puis réinitialiser*/
 
 
 
-      
+/*       
 @keyframes SlideFromLeft{
    from {transform: translateX(-200px); }
    to { transform: translateX(0px);}
 }
 
       
-/* @keyframes SlideFromRight{
+@keyframes SlideFromRight{
    from {transform: translateX(0px); }
-   to { transform: translateX(-200px);}
+   to { transform: translateX(-250px);}
 } */
 
 }
