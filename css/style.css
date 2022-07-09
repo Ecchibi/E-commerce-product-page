@@ -49,7 +49,7 @@ a:hover {
 .cart{
    width : 20px;
    height : 20px;
-   filter: brightness(0) invert(0); /* black color*/
+   /* filter: brightness(0) invert(0); black color */
 }
 
 .avatar{
